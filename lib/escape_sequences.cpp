@@ -14,6 +14,8 @@ int main(){
         comment
     */
     
+    //  :: = The scope resolution operator helps to identify and specify the context to which an identifier refers, particularly by specifying a namespace or class.
+
 
     // use this to print
     std::cout << "Hello World";
