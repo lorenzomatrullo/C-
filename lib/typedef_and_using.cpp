@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 
 /*
     Typedef = reserved keyword used to create an additional name for another data type.
@@ -7,7 +6,6 @@
     Helps with readability and reduces typos.
     Mostly Repleace with "using" (work better w/ templates)
 */
-
 
 
 // typedef std::string text_t;
