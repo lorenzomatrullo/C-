@@ -4,6 +4,7 @@
     Typedef = reserved keyword used to create an additional name for another data type.
     New identifier for an existing type.
     Helps with readability and reduces typos.
+
     Mostly Repleace with "using" (work better w/ templates)
 */
 
