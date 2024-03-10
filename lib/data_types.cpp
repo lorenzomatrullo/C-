@@ -22,7 +22,7 @@ int main(){
     //array of characters (strings)
     char name[] = "Lorenzo";
     std::string day = "Friday";
-    string address = "Street No. 12"; //or this version because of using namespace std;
+    string address = "Street No. 12"; //or this version if you use namespace std;
 
 
     //boolean (true or false)
@@ -31,7 +31,7 @@ int main(){
 
 
     // To display a text before calling the variable
-    cout << "Address: " << address << '\n';
+    cout << "Address: " << address;
 
 
     // To display a text before and after calling the variable
