@@ -8,9 +8,13 @@ int main(){
     int age = 19;
     int year = 2024;
 
+    
+    // floats (less precision than doubles)
+    float g = 9.81;
 
-    //double (numbers including decimals)
-    double price = 10.99;
+
+    //double (numbers including decimals with more precision)
+    double g = 9.80665;
     double gpa = 2.5;
 
 

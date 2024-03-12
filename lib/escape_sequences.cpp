@@ -32,5 +32,9 @@ int main(){
     cout << "Hello World" << '\n';
 
 
+    // flow operators
+    // << output
+    // >> input
+
     return 0;
 }
