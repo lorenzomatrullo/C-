@@ -20,10 +20,15 @@ namespace first{
 }
 
 
+namespace second{
+    int x = 2;
+}
+
+
 int main(){
 
-    using namespace first;
-    cout << x << '\n';
+    using namespace second;
+    cout << x;
 
     return 0;
 }
