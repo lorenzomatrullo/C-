@@ -5,13 +5,14 @@
     New identifier for an existing type.
     Helps with readability and reduces typos.
 
-    Mostly Repleace with "using" (work better w/ templates)
+    Mostly Repleace with "using" in C++ (work better w/ templates)
 */
 
 
 // typedef std::string text_t;
 // _t at the end of the keyword is used as a convention for typedefs
 using text_t = std::string;
+
 
 // typedef int number_t;
 using number_t = int;
