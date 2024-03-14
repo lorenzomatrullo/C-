@@ -23,10 +23,10 @@ int main(){
     char initial = 'L';
 
 
-    //array of characters (strings)
+    //strings (array of characters)
     char name[] = "Lorenzo";
     std::string day = "Friday";
-    string address = "Street No. 12"; //or this version if you use namespace std;
+    string address = "Street No. 12"; //or this version if you use using namespace std;
 
 
     //boolean (true or false)
