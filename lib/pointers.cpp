@@ -3,6 +3,7 @@
 using namespace std;
 
 /*
+    pointer = variable that stores a memory address of another variable.
     * = dereferencing the pointer to actually get to value of what it is pointing to
 */
 
