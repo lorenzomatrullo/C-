@@ -11,6 +11,7 @@ int main(){
 
     int max = 100;
     int *pMax = &max;
+    // as a convention to declare a pointer we use "p before the actual variable name and the next character will be uppercase"
 
     cout << "ADDRESS of Max: " << &max << '\n';
     cout << "ADDRESS of pMax: "<< pMax << '\n';
