@@ -3,7 +3,7 @@ using namespace std;
 
 /*
     Pass by Value:
-    1. When you pass arguments by value, you're essentially making a copy of the original value and passing that copy to the function.
+    1. When you pass arguments by value, you're essentially making a COPY of the original value and passing that copy to the function.
     2. Changes made to the parameter inside the function won't affect the original value outside the function.
     3. It's like giving someone a photocopy of a document; whatever they do to the photocopy doesn't affect the original document.
 */
