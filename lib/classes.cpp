@@ -41,7 +41,7 @@ class Car {
         string color;
 
         void accelerate(){
-            cout << "You tep on the gas!\n";
+            cout << "You step on the gas!\n";
         }
 
         void brake(){
