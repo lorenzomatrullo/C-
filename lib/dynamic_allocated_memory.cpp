@@ -38,7 +38,7 @@ int main(){
     cout << "Address: " << pNum << '\n';
     cout << "Value: " << *pNum << '\n';
 
-    // it's good practice use "delete" if we used before the "new" operator and we are no longer using that memory.
+    // it's good practice to use "delete" if we used before the "new" operator and we are no longer using that memory.
     delete pNum;        // freeing up the memory at this address
 
     return 0;
