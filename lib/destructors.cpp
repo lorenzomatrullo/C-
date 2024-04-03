@@ -4,7 +4,7 @@ using namespace std;
 /*
     DESTRUCTOR = special method that is automatically called when an object goes out of scope OR is explicitly deleleted using "delete".
 
-    Its porimary purpose is to perform any necessary cleanup tasks associated with the object's resources.
+    Its primary purpose is to perform any necessary cleanup tasks associated with the object's resources.
 
     *Deallocating mamory
     *Closing files
