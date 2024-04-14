@@ -3,8 +3,11 @@ using namespace std;
 
 /*
     CONSTRUCTOR = special method that is automatically called when an object is instantiated useful for assigning values to attributes as arguments.
-*/
 
+    *Initializing the object's member variables
+    *Allocating memory
+    *Performing any other setup tasks
+*/
 
 class Student {
     public:
@@ -12,11 +15,11 @@ class Student {
         int age;
         double gpa;
 
-    Student(string name, int age, double gpa){
-        this -> name = name;
-        this -> age = age;
-        this -> gpa = gpa;
-    }
+        Student(string name, int age, double gpa){
+            this -> name = name;
+            this -> age = age;
+            this -> gpa = gpa;
+        }
 };
 
 class Car{
@@ -26,12 +29,12 @@ class Car{
         int year;
         string color;
 
-    Car(string make, string model, int year, string color){
-        this -> make = make;
-        this -> model = model;
-        this -> year = year;
-        this -> color = color;
-    }
+        Car(string make, string model, int year, string color){
+            this -> make = make;
+            this -> model = model;
+            this -> year = year;
+            this -> color = color;
+        }
 };
 
 
