@@ -2,15 +2,20 @@
 #include <fstream>
 using namespace std;
 
+
+/*
+    ofstream (Output File Stream): Used for writing data to a file.
+*/
+
+
 int main(){
 
+    ofstream outputFile;    // To write to a file
+
+    // outFile.open("file.txt");                        // this will overwrites existing content
+    outputFile.open("file.txt", ofstream::app);        // this will append the new content to the existing one
     
-    ofstream outFile;
-
-    // outFile.open("file.txt");                     // this will clean the file everytime before writing the new stuff
-    outFile.open("file.txt", ofstream::app);        // this will append stuff to the already existing stuff
-
-    if (outFile.fail()) {
+    if (outputFile.fail()) {
         cout << "Error opening file." << '\n';
         return 1;
     }
@@ -20,14 +25,13 @@ int main(){
     int y = 10;
     string z = "abc";
 
-    outFile << "content" << '\n';
-    outFile << x << '\n';
-    outFile << y << '\n';
-    outFile << z << '\n';
+    outputFile << "content" << '\n';
+    outputFile << x << '\n';
+    outputFile << y << '\n';
+    outputFile << z << '\n';
 
 
-    outFile.close();
-
+    outputFile.close();
 
     return 0;
 }
