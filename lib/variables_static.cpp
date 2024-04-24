@@ -2,9 +2,11 @@
 using namespace std;
 
 /*
-    Static Variable: A static variable retains its value throughout the entire runtime of the program. It's initialized once and keeps its value until the program terminates.
+    Static Variable: A static variable retains its value throughout the entire runtime of the program.
+    It's initialized once and keeps its value until the program terminates.
 
-    Normal Variable: A normal variable typically exists only within the scope where it's defined. Its lifespan is limited to the block in which it's declared or the function call in which it's created.   
+    Normal Variable: A normal variable typically exists only within the scope where it's defined. 
+    Variable gets re-initialized everytime its called.   
 */
 
 
