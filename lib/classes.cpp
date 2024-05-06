@@ -13,6 +13,14 @@ using namespace std;
     Created from a class which acts as a "blue-print"
 */
 
+/*
+    ACCESS SPECIFIERS:
+
+    public: allows to change the settings by anyone
+    private: does not allow anyone to change the settings
+    protected: inheritance classes can access the settings
+*/
+
 
 class Human {
     public:
