@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+/*
+    "virtual" keyword = This tells the compiler that this function can be overridden in derived classes
+*/
 
 class Student {
     public:
@@ -10,7 +13,8 @@ class Student {
             this -> name = name;
         }
 
-        virtual void print(){               // "virtual" displays the 2nd parameter ("speciality") for MedicalStudents otherwise it'd only display one parameter ("name")
+        // "virtual" displays the 2nd parameter ("speciality") for MedicalStudents otherwise it'd only display one parameter ("name")
+        virtual void print(){
             cout << name << '\n';
         }
 };
