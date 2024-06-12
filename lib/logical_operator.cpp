@@ -3,7 +3,7 @@
  /*
     && (AND) = checks if 2 conditions are true
     || (OR) = checks if the last condition is true
-    ! (NOT) = reverses th state of a condition
+    ! (NOT) = reverses the state of a condition
 */
 
 using namespace std;
