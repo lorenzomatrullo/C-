@@ -19,11 +19,10 @@ using namespace std;
 */
 
 /*
-    DYNAMIC MEMORY = Memory that is allocated after the prograam is already compiled & running.
+    DYNAMIC MEMORY = Memory that is allocated after the program is already compiled & running.
     1. Use the "new" operator to allocate memory in the heap rather than the stack.
-    2. Useful when we don't kno how much memory we will need.
-    3. Makes our programs more flexible especiaally when accepting user input.
-
+    2. Useful when we don't know how much memory we will need.
+    3. Makes our programs more flexible especially when accepting user input.
 */
 
 
@@ -38,7 +37,7 @@ int main(){
     cout << "Address: " << pNum << '\n';
     cout << "Value: " << *pNum << '\n';
 
-    // it's good practice to use "delete" if we used before the "new" operator and we are no longer using that memory.
+    // it's good practice to use "delete" if before we used the "new" operator and we are no longer using that memory.
     delete pNum;        // freeing up the memory at this address
 
     return 0;
