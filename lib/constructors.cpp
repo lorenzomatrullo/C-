@@ -16,9 +16,9 @@ class Student {
         double gpa;
 
         Student(string name, int age, double gpa){
-            this -> name = name;
-            this -> age = age;
-            this -> gpa = gpa;
+            this -> name = name;    // name = x (its the same)
+            this -> age = age;      // age = y (its the same)
+            this -> gpa = gpa;      // gpa = z (its the same)
         }
 };
 
