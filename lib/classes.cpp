@@ -2,6 +2,8 @@
 using namespace std;
 
 /*
+    CLASS = a user-defined data type that serves as a blueprint for creating objects.
+
     OBJECT = a collection of attributes and methods.
     *attributes = characteristics of an object
     *methods = functions that an object can perform
